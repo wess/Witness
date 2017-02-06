@@ -14,7 +14,7 @@ class witnessObservationTests: XCTestCase {
     let str         = Value("Hello World")
     var wasObserved = false
 
-    str.observe {_ in
+    str.observe {
       wasObserved = true
     }
 
